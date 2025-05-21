@@ -1,6 +1,36 @@
 # HeatitPY
 A client library for accessing Heatit WiFi Panel Heater
 
+## Install
+
+To install the latest version run:
+
+    pip install git+https://github.com/IverMortensen/HeatitPy.git
+
+After installation, you can verify it’s working:
+
+    python -c "import heatitpy; print(heatitpy.__version__)"
+
+
+### Editable version
+---
+
+If you want to make changes to HeatitPy itself, use an editable install so local changes take effect immediately:
+
+1. Download the repo.
+
+2. Move the repo to where you want and go to it’s directory (e.g. "C:\Users\user\Downloads\HeatitPy") in your terminal.
+
+3. Run the command:
+
+        pip install -e .
+
+4. Verify that it’s working:
+
+        python -c "import heatitpy; print(heatitpy.__version__)"
+
+Any changes made to the downloaded repo will take effect immediately.
+
 ## Usage
 First, create a client:
 
